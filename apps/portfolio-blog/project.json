@@ -19,7 +19,10 @@
           "apps/portfolio-blog/src/favicon.ico",
           "apps/portfolio-blog/src/assets"
         ],
-        "styles": ["apps/portfolio-blog/src/styles.scss"],
+        "styles": [
+          "node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
+          "apps/portfolio-blog/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
