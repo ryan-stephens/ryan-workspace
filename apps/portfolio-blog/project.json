@@ -30,8 +30,8 @@
           "budgets": [
             {
               "type": "initial",
-              "maximumWarning": "500kb",
-              "maximumError": "1mb"
+              "maximumWarning": "1mb",
+              "maximumError": "2mb"
             },
             {
               "type": "anyComponentStyle",
@@ -68,7 +68,10 @@
           "browserTarget": "portfolio-blog:build:development"
         }
       },
-      "defaultConfiguration": "development"
+      "defaultConfiguration": "development",
+      "options": {
+        "proxyConfig": "apps/portfolio-blog/proxy.conf.json"
+      }
     },
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
